@@ -37,4 +37,6 @@ pytube
 gtts
 pydub
 speech_recognition
-Feel free to explore and use these multimedia processing features in your projects.
+Feel free to explore and use these multimedia processing features in your projects.\
+## Contribution
+Swetha M, Harishh A
