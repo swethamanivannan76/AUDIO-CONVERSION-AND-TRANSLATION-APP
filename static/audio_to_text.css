@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 40px;
+}
+.container{
+    margin-top: 50px;
+}
+h1 {
+    color: #ffffff;
+    background-color: #2f3c7e;
+    padding: 10px;
+    border-radius: 10px;
+}
+input[type="submit"]:hover {
+    background-color: #18a102;
+
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fbeaeb;
+    border-radius: 8px;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    font-weight: bold;
+}
+/* input[type="submit"] {
+    background-color: #2f3c7e;
+    color: #fff;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 50px;
+} */
+input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    /* margin: 8px 0; */
+    background-color: #2f3c7e;
+    color: #fff;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 10px;
+   
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+select {
+    height: 40px;
+}
+
+
+
+
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Add these styles to your existing CSS file or in the head of your HTML */
+
+.result-container {
+    margin-top: 20px;
+}
+
+.translated-text,
+.audio-file {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}

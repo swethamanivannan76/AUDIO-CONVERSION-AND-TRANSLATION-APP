@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='index.css') }}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Playfair+Display&family=Playpen+Sans&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Kdam+Thmor+Pro&family=Playfair+Display&family=Playpen+Sans&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Kdam+Thmor+Pro&family=Playfair+Display&family=Playpen+Sans&family=Salsa&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <h1>Welcome to the Translation and Conversion App</h1>
+    <div class="container column">
+      <div class=" column1" style="justify-content: left;">
+        <h2 class="content" >
+          Specially for visually <br />and <br />
+          Hearing Impaired
+        </h4>
+      </div>
+      <div class=" column2">
+        <p>Choose an option:</p>
+        <a href="{{ url_for('pdf_to_audio') }}">Convert PDF to Audio</a>
+        <br />
+        <a href="{{ url_for('video_conversion') }}">Translate a Video</a>
+        <br />
+        <a href="{{ url_for('audio_to_text') }}">Convert Audio to Text</a>
+      </div>
+
+      
+    </div>
+    <div class="about">
+      <div class="left">
+        <h2>
+          Pdf to audio
+        </h2>
+        <hr>
+      </div>
+      <div class="right">
+        <p>
+          Converting PDF to audio involves the transformation of written text within a Portable Document Format (PDF) document into spoken words. This process is particularly beneficial for individuals who may have visual impairments or prefer auditory learning experiences. By utilizing text-to-speech (TTS) technology, PDF-to-audio conversion tools can analyze the textual content of a PDF file and generate corresponding spoken audio output. This enables users to listen to the document's content rather than reading it visually. The technology often allows for customization, such as adjusting the speed and voice of the generated audio, enhancing accessibility for a diverse range of users. PDF-to-audio conversion can be a valuable tool in making information more accessible and inclusive, supporting various learning preferences and accessibility needs.
+        </p>
+      </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="about">
+      <div class="right">
+        <p>
+          Translating a YouTube audio involves the conversion of spoken content from one language to another, enhancing accessibility and global reach. This process utilizes translation tools to generate a written transcript of the original audio, which is then translated into the desired language. Subsequently, the translated text can be synchronized with the audio to create a subtitled version or used as a basis for generating a new audio track in the target language. This enables individuals who may not be proficient in the original language to comprehend and engage with the content effectively. Translating YouTube audio is valuable for content creators seeking to broaden their audience and share information across linguistic barriers, fostering a more inclusive and diverse viewership. Additionally, it contributes to the globalization of content, making it more accessible and relevant to a worldwide audience with diverse language preferences.        </p>
+      </div>
+      <div class="left">
+        <h2>
+          Translate a YT audio
+        </h2>
+        <hr>
+      </div>      
+    </div>
+    <br>
+    <br>
+    <div class="about">
+      <div class="left">
+        <h2>
+          Audio to text
+        </h2>
+        <hr>
+      </div>
+      <div class="right">
+        <p>
+
+          Audio-to-text conversion is a transformative process that involves transcribing spoken words from an audio source into written text. This technology, often powered by speech recognition algorithms, analyzes the audio input and translates it into a textual format. Audio-to-text conversion has numerous practical applications, from creating accurate and searchable transcripts of meetings, interviews, or lectures to enabling accessibility features for individuals with hearing impairments. It is a valuable tool for content creators, professionals, and researchers, as it streamlines the process of converting spoken information into a written form, facilitating easy reference, analysis, and dissemination. The technology has made significant strides in accuracy and efficiency, offering a convenient means of capturing and repurposing spoken content across various domains.        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

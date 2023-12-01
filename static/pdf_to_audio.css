@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+.container{
+    margin-top: 50px;
+}
+h1 {
+    color: #ffffff;
+    background-color: #2f3c7e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fbeaeb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+select,
+input[type="file"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+select {
+    height: 40px;
+}
+
+input[type="submit"] {
+    background-color: #2f3c7e;
+    color: #fff;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #18a102;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+          rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Add these styles to your existing CSS file or in the head of your HTML */
+
+.result-container {
+    margin-top: 20px;
+}
+
+.translated-text,
+.audio-file {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Apply styles to the entire select element */
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Style the arrow icon (if visible) */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  /* Style the arrow icon for non-IE browsers */
+  select::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  /* Add a hover effect */
+  select:hover {
+    border-color: #888;
+  }
+  
+  /* Add a focus effect */
+  select:focus {
+    outline: none;
+    border-color: #2f3c7e; /* Change color on focus */
+    box-shadow: 0 0 5px rgba(47, 60, 126, 0.5); /* Add a subtle shadow on focus */
+  }
+  /* Style the option elements */
+select option {
+  background-color: #fff; /* Background color */
+  color: #333; /* Text color */
+  padding: 10px;
+}
+
+/* Add hover effect to option elements */
+select option:hover {
+  background-color: #2f3c7e;
+}

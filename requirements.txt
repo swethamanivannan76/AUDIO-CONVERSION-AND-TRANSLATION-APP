@@ -1,0 +1,7 @@
+Flask==2.1.1
+PyPDF2==1.26.0
+googletrans==4.0.0-rc1
+pytube==11.0.1
+gtts==2.2.3
+pydub==0.25.1
+SpeechRecognition==3.8.1
